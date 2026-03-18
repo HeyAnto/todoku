@@ -1,0 +1,37 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  background: #f4f1ea;
+  color: #1c1b18;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background:
+    radial-gradient(circle at 15% 15%, #ffffff 0, #f4f1ea 35%),
+    linear-gradient(160deg, #ece6db, #f8f5ee);
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-size: clamp(1.6rem, 2vw + 1rem, 2.4rem);
+}
+
+p {
+  margin: 0;
+  line-height: 1.6;
+}
